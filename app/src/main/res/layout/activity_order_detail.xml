@@ -59,23 +59,21 @@
             android:layout_marginBottom="15dp"
             android:text="Pengiriman" />
 
-        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        <RadioGroup
             android:id="@+id/radio_pengiriman"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <RadioButton android:id="@+id/radio_pirates"
+            <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Ambil Sendiri"
-                android:onClick="onRadioButtonClicked"/>
+                android:text="Ambil Sendiri"/>
 
-            <RadioButton android:id="@+id/radio_ninjas"
+            <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Fast Delivery (minimal 30 menit sampai)"
-                android:onClick="onRadioButtonClicked"/>
+                android:text="Fast Delivery (minimal 30 menit sampai)" />
 
         </RadioGroup>
 
@@ -109,6 +107,7 @@
             android:padding="10dp"
             android:justificationMode="inter_word"
             android:background="#C4C4C4"
+            android:textColor="#000"
             android:textStyle="bold"
             android:visibility="gone"
             android:text="Terima kasih Pa Asep sudah memesan
