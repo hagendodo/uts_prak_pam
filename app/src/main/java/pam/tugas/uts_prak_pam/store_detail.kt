@@ -46,7 +46,6 @@ class store_detail : AppCompatActivity() {
             val intent = Intent(this, MenuActivity::class.java)
             intent.putExtra("selectedStore", selectedStore.toString())
             intent.putExtra("customerName", customerName.toString())
-            //intent.putStringArrayListExtra()
             startActivity(intent)
         }
 

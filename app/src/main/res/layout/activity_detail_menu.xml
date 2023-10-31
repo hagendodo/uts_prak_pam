@@ -12,6 +12,7 @@
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/image_menu"
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:padding="0dp"
@@ -25,6 +26,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/price_menu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#733F0E"
@@ -34,6 +36,7 @@
                 android:text="Price: Rp 66.000,00" />
 
             <TextView
+                android:id="@+id/description_menu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#733F0E"
@@ -44,6 +47,7 @@
                 android:text="Pepperoni pizza adalah pizza yang memiliki  topping daging pepperoni sapi asli. Di Italia, pepperoni disebut salame piccante (salami panas). Biasa menjadi bahan baku pizza di Amerika Serikat, yang sering mewakili 30% pelengkap. Pizza ini cocok untuk santap siang ataupun malam anda" />
 
             <Button
+                android:id="@+id/btn_order_menu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cornerRadius="0dp"
@@ -53,6 +57,7 @@
                 android:text="Order Now" />
 
             <Button
+                android:id="@+id/btn_back_menu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cornerRadius="0dp"
@@ -66,6 +71,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/title_menu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="210dp"

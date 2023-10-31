@@ -60,6 +60,7 @@
             android:text="Pengiriman" />
 
         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/radio_pengiriman"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -79,6 +80,7 @@
         </RadioGroup>
 
         <Button
+            android:id="@+id/btn_done"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cornerRadius="0dp"
@@ -108,9 +110,10 @@
             android:justificationMode="inter_word"
             android:background="#C4C4C4"
             android:textStyle="bold"
+            android:visibility="gone"
             android:text="Terima kasih Pa Asep sudah memesan
 ditoko kami, pesanan Pepperoni Pizza
-anda dikirim menggunakan Fast Delivery " />
+anda dikirim menggunakan Fast Delivery" />
 
     </LinearLayout>
 
